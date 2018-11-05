@@ -1,0 +1,1 @@
+export { default as Crud } from './Crud'; // eslint-disable-line

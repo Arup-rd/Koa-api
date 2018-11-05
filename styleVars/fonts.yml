@@ -1,0 +1,18 @@
+small:
+  font-size: "1.6rem"
+  line-height: "auto"
+default:
+  font-size: "1.8rem"
+  line-height: "auto"
+medium:
+  font-size: "2.5rem"
+  line-height: "30px"
+xmedium:
+  font-size: "3.2rem"
+  line-height: "38px"
+large:
+  font-size: "4.9rem"
+  line-height: "38px"
+xlarge:
+  font-size: "13.9rem"
+  line-height: "125px"

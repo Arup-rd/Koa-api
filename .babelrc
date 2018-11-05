@@ -1,0 +1,25 @@
+{
+  "presets": [
+    "stage-0",
+    [
+      "env", {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "transform-async-to-generator",
+    "syntax-async-functions",
+    "transform-runtime",
+    ["module-resolver", {
+      "alias": {
+        "@utl": "./src/server/app/utility",
+        "@mod": "./src/server/app/modules",
+        "@mid": "./src/server/app/middlewares",
+        "@socket": "./src/server/app/socket"
+      }
+    }]
+  ]
+}
